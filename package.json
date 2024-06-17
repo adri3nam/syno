@@ -4,7 +4,7 @@
   "description": "Simple Node.js wrapper (browser included) and CLI for Synology DSM REST API 5.x and 6.x",
   "main": "dist/syno.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test --force"
   },
   "repository": {
     "type": "git",
@@ -38,23 +38,22 @@
     "commander": "^4.1.0",
     "js-yaml": "^3.6.1",
     "lodash": "^4.17.4",
-    "minimist": "^0.2.1",
-    "nconf": "^0.10.0",
+    "minimist": "^0.2.4",
+    "nconf": "^0.12",
     "ospath": "^1.2.2",
     "pluralize": "^8.0.0",
-    "request": "^2.79.0"
+    "request": "^2.88"
   },
   "devDependencies": {
     "brfs": "^2.0.2",
     "browserify": "^16.5.0",
-    "coffeelint": "^2.1.0",
-    "grunt": "1.0.4",
+    "coffeelint": "^1.4.1",
+    "grunt": "1.6.1",
     "grunt-coffeelint": "0.0.16",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-coffee": "^2.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-uglify-es": "gruntjs/grunt-contrib-uglify#harmony",
-    "grunt-mokuai-coffee": "^1.0.1",
     "grunt-shell": "^3.0.1",
     "load-grunt-config": "^3.0.1"
   }
